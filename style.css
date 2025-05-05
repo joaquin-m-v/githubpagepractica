@@ -1,0 +1,81 @@
+body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(166, 227, 241);
+height: 100vh;
+}
+
+.formulario{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);   
+width: 400px;
+background-color: rgba(255, 255, 255, 0.667);
+border-radius: 10px;
+}
+
+.formulario h1{
+text-align: center;
+padding: 0%;    
+}
+
+.formulario form{
+padding: 5%;
+box-sizing: border-box;
+}
+
+form .nombre_usuario{
+    position: relative;
+    text-align: center;
+}
+
+.nombre_usuario label{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    color: rgb(0, 0, 0);
+}
+.nombre_usuario input{
+    width: 200px;
+    padding: 0 10px;
+    height: 20px;
+    font-size: small ;
+    border:solid rgb(16, 106, 118) ;
+}
+
+
+
+form .contraseña{
+    position:relative;
+    text-align: center;
+    }
+
+.contraseña label{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    color: black;
+}
+
+.contraseña input{
+    width: 200px;
+    padding: 0 10px;
+    height: 20px;
+    font-size: small;
+    border: solid rgb(16, 106, 118);
+}
+
+.recordar{
+    text-align: center;
+}
+
+.submit{
+  text-align: center;
+}
+
+.registrarse{
+    text-align: center;
+}
+
